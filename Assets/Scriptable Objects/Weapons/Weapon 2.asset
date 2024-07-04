@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d3a8197ee35b304dbfc408b9a5300ed, type: 3}
+  m_Name: Weapon 2
+  m_EditorClassIdentifier: 
+  price: 200
+  itemName: Rapier
+  isBought: 0
+  description: Fast And bad
+  <componentDatas>k__BackingField:
+  - rid: 6746523593439182848
+  - rid: 6746523593439182849
+  <animatorController>k__BackingField: {fileID: 9100000, guid: d9809f51d2309a9429eec51c8d3b01b2,
+    type: 2}
+  attackRange: 10
+  attackValue: 10
+  references:
+    version: 2
+    RefIds:
+    - rid: 6746523593439182848
+      type: {class: WeaponSpriteData, ns: , asm: Assembly-CSharp}
+      data:
+        <sprites>k__BackingField:
+        - <Sprites>k__BackingField:
+          - {fileID: 1296545514, guid: 9e842fbd655cb6b49a319e5c14a02156, type: 3}
+          - {fileID: -1867176560, guid: 9e842fbd655cb6b49a319e5c14a02156, type: 3}
+          - {fileID: 131688204, guid: 9e842fbd655cb6b49a319e5c14a02156, type: 3}
+          - {fileID: 521705895, guid: 9e842fbd655cb6b49a319e5c14a02156, type: 3}
+          - {fileID: -230993513, guid: 9e842fbd655cb6b49a319e5c14a02156, type: 3}
+        - <Sprites>k__BackingField:
+          - {fileID: 481621243, guid: 9e842fbd655cb6b49a319e5c14a02156, type: 3}
+          - {fileID: 932557070, guid: 9e842fbd655cb6b49a319e5c14a02156, type: 3}
+          - {fileID: -1178108072, guid: 9e842fbd655cb6b49a319e5c14a02156, type: 3}
+          - {fileID: 1080287315, guid: 9e842fbd655cb6b49a319e5c14a02156, type: 3}
+          - {fileID: -915124768, guid: 9e842fbd655cb6b49a319e5c14a02156, type: 3}
+        - <Sprites>k__BackingField:
+          - {fileID: 1419649614, guid: 9e842fbd655cb6b49a319e5c14a02156, type: 3}
+          - {fileID: -721810941, guid: 9e842fbd655cb6b49a319e5c14a02156, type: 3}
+          - {fileID: -1888552469, guid: 9e842fbd655cb6b49a319e5c14a02156, type: 3}
+          - {fileID: 1225145831, guid: 9e842fbd655cb6b49a319e5c14a02156, type: 3}
+        - <Sprites>k__BackingField:
+          - {fileID: -919216411, guid: 9e842fbd655cb6b49a319e5c14a02156, type: 3}
+          - {fileID: -72513508, guid: 9e842fbd655cb6b49a319e5c14a02156, type: 3}
+          - {fileID: -1996063585, guid: 9e842fbd655cb6b49a319e5c14a02156, type: 3}
+          - {fileID: -1325715119, guid: 9e842fbd655cb6b49a319e5c14a02156, type: 3}
+          - {fileID: -1579032490, guid: 9e842fbd655cb6b49a319e5c14a02156, type: 3}
+    - rid: 6746523593439182849
+      type: {class: ActionHitBoxData, ns: , asm: Assembly-CSharp}
+      data:
+        <DetectableLayers>k__BackingField:
+          serializedVersion: 2
+          m_Bits: 256
+        hitBox:
+        - serializedVersion: 2
+          x: -0.54
+          y: 0.3
+          width: 1.13
+          height: 1.25
+        - serializedVersion: 2
+          x: -1.42
+          y: 0.02
+          width: 1.27
+          height: 0.98
+        - serializedVersion: 2
+          x: 0.54
+          y: -0.41
+          width: -1.04
+          height: 0.79
+        - serializedVersion: 2
+          x: 0.19
+          y: 0.02
+          width: 1.27
+          height: 0.98
+        Debug: 0

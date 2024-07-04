@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d3a8197ee35b304dbfc408b9a5300ed, type: 3}
+  m_Name: Weapon 1
+  m_EditorClassIdentifier: 
+  price: 50
+  itemName: Spear
+  isBought: 0
+  description: funny attack animation, not realy long but still less basic then sword
+  <componentDatas>k__BackingField:
+  - rid: 6746523375707881476
+  - rid: 6746523390467112963
+  <animatorController>k__BackingField: {fileID: 9100000, guid: c6cb63091c0f2284497e837b238feabf,
+    type: 2}
+  attackRange: 0
+  attackValue: 15
+  references:
+    version: 2
+    RefIds:
+    - rid: 6746523375707881476
+      type: {class: WeaponSpriteData, ns: , asm: Assembly-CSharp}
+      data:
+        <sprites>k__BackingField:
+        - <Sprites>k__BackingField:
+          - {fileID: -95226044, guid: 1ca577fd9a8fbae40ae69bae826271b1, type: 3}
+          - {fileID: 1591979837, guid: 1ca577fd9a8fbae40ae69bae826271b1, type: 3}
+          - {fileID: 2112494058, guid: 1ca577fd9a8fbae40ae69bae826271b1, type: 3}
+          - {fileID: 783879354, guid: 1ca577fd9a8fbae40ae69bae826271b1, type: 3}
+          - {fileID: -991362231, guid: 1ca577fd9a8fbae40ae69bae826271b1, type: 3}
+          - {fileID: -1810765886, guid: 1ca577fd9a8fbae40ae69bae826271b1, type: 3}
+          - {fileID: -45529549, guid: 1ca577fd9a8fbae40ae69bae826271b1, type: 3}
+        - <Sprites>k__BackingField:
+          - {fileID: 917056921, guid: 1ca577fd9a8fbae40ae69bae826271b1, type: 3}
+          - {fileID: -833213984, guid: 1ca577fd9a8fbae40ae69bae826271b1, type: 3}
+          - {fileID: -1328960756, guid: 1ca577fd9a8fbae40ae69bae826271b1, type: 3}
+          - {fileID: -1710976494, guid: 1ca577fd9a8fbae40ae69bae826271b1, type: 3}
+          - {fileID: -110422455, guid: 1ca577fd9a8fbae40ae69bae826271b1, type: 3}
+          - {fileID: -357565451, guid: 1ca577fd9a8fbae40ae69bae826271b1, type: 3}
+          - {fileID: -298961901, guid: 1ca577fd9a8fbae40ae69bae826271b1, type: 3}
+        - <Sprites>k__BackingField:
+          - {fileID: 1639627497, guid: 1ca577fd9a8fbae40ae69bae826271b1, type: 3}
+          - {fileID: -1940143232, guid: 1ca577fd9a8fbae40ae69bae826271b1, type: 3}
+          - {fileID: -1008795711, guid: 1ca577fd9a8fbae40ae69bae826271b1, type: 3}
+          - {fileID: -1332768356, guid: 1ca577fd9a8fbae40ae69bae826271b1, type: 3}
+          - {fileID: 113885812, guid: 1ca577fd9a8fbae40ae69bae826271b1, type: 3}
+          - {fileID: 1727159686, guid: 1ca577fd9a8fbae40ae69bae826271b1, type: 3}
+          - {fileID: -1904512416, guid: 1ca577fd9a8fbae40ae69bae826271b1, type: 3}
+        - <Sprites>k__BackingField:
+          - {fileID: 1124501400, guid: 1ca577fd9a8fbae40ae69bae826271b1, type: 3}
+          - {fileID: 1296730020, guid: 1ca577fd9a8fbae40ae69bae826271b1, type: 3}
+          - {fileID: 2057594741, guid: 1ca577fd9a8fbae40ae69bae826271b1, type: 3}
+          - {fileID: -41703788, guid: 1ca577fd9a8fbae40ae69bae826271b1, type: 3}
+          - {fileID: 1118401669, guid: 1ca577fd9a8fbae40ae69bae826271b1, type: 3}
+          - {fileID: -479196299, guid: 1ca577fd9a8fbae40ae69bae826271b1, type: 3}
+          - {fileID: -371615131, guid: 1ca577fd9a8fbae40ae69bae826271b1, type: 3}
+    - rid: 6746523390467112963
+      type: {class: ActionHitBoxData, ns: , asm: Assembly-CSharp}
+      data:
+        <DetectableLayers>k__BackingField:
+          serializedVersion: 2
+          m_Bits: 256
+        hitBox:
+        - serializedVersion: 2
+          x: -0.54
+          y: 0.3
+          width: 1.13
+          height: 1.25
+        - serializedVersion: 2
+          x: -1.42
+          y: 0.02
+          width: 1.27
+          height: 0.98
+        - serializedVersion: 2
+          x: 0.54
+          y: -0.41
+          width: -1.04
+          height: 0.79
+        - serializedVersion: 2
+          x: 0.19
+          y: 0.02
+          width: 1.27
+          height: 0.98
+        Debug: 1
